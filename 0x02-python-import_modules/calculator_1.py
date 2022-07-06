@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 def add(a, b):
     """My addition function
-        Args:
-            a: first integer
-            b: second integer
+
+    Args:
+        a: first integer
+        b: second integer
                      
-        Returns:
-            The return value. a + b
-        """ 
+    Returns:
+        The return value. a + b
+    """ 
         return (a + b)
 
 
@@ -32,10 +33,11 @@ def mul(a, b):
         a: first integer
         b: second integer
 
-        Returns:
-            The return value. a * b
+    Returns:
+        The return value. a * b
     """
         return (a * b)
+
 
 def div(a, b):
     """My division function
@@ -46,5 +48,5 @@ def div(a, b):
 
     Returns:
         The return value. a / b
-        """
+    """
         return int(a / b)
